@@ -6,12 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "update": "yalc update"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
+    "@clutch-inc/usfa-ui-admin": "file:.yalc/@clutch-inc/usfa-ui-admin",
+    "@hookform/resolvers": "^3.10.0",
+    "@tinymce/tinymce-react": "^5.1.1",
+    "antd": "^5.23.4",
+    "next": "14.2.4",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "react-select": "^5.10.0",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "eslint": "^8",
