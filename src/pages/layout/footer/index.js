@@ -1,6 +1,6 @@
 import HomeBtn from '@/components/HomeBtn';
 import { Footer } from '@clutch-inc/usfa-ui-admin';
-import { useEffect, useState } from 'react';
+
 
 export default function Home() {
   return (

@@ -6,6 +6,7 @@ import '@/styles/globals.css'; // required since nextjs pushes content through d
 config.autoAddCss = false;
 
 export default function App({ Component, pageProps }) {
+  //Hydration error fixed!!!
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
