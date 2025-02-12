@@ -1,0 +1,9 @@
+/* ** Required on every app ** */
+#__next {
+  display: grid;
+  grid-template-areas: 'header' 'main' 'footer';
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}

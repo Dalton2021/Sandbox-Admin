@@ -1,6 +1,7 @@
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { useEffect, useState } from 'react';
+import '@/styles/globals.css'; // required since nextjs pushes content through div#__next
 
 config.autoAddCss = false;
 
