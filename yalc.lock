@@ -1,9 +1,0 @@
-{
-  "version": "v1",
-  "packages": {
-    "@clutch-inc/usfa-ui-admin": {
-      "signature": "04495791d2e948ea5a9d47b863f7cb47",
-      "file": true
-    }
-  }
-}
