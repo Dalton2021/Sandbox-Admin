@@ -37,9 +37,22 @@ export default function Home() {
         </Row>
         <Row className="mt-4">
           <Col>
-            <h2>Control</h2>
+            <h2>Checks</h2>
             <Formax {...{ methods }} onSubmit={(data) => alert(`Submitted username: ${data.username}`)}>
-              <Formax.Control name="username" label="Username" required />
+              <Formax.Check
+                name="username"
+                label="jake"
+                value="jake"
+                title="usernameJake"
+                id="usernameJake"
+              />
+              <Formax.Check
+                name="username"
+                label="gerald"
+                value="gerald"
+                title="usernameGerald"
+                id="usernameGerald"
+              />
               <Button type="submit" className="mt-3">
                 Submit
               </Button>
