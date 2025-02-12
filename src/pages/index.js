@@ -1,4 +1,3 @@
-import { Header, ThemeSwitch } from '@clutch-inc/usfa-ui-admin';
 import Link from 'next/link';
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -6,8 +5,6 @@ export default function Home() {
   return (
     <>
       <main>
-        {/* <Header appName="Civilian-Fatalities-Admin" user={{ firstName: 'Test', lastName: 'User' }} /> */}
-        {/* <ThemeSwitch /> */}
         <Container>
           <h1 className="fw-bolder pt-4">USFA-UI-Admin Sandbox</h1>
           <Row className="border-bottom border-0 mb-4">
@@ -30,15 +27,15 @@ export default function Home() {
                   <Link href="/layout/header">Header</Link>
                   <ul>
                     <li className="mb-2">
-                      <Link href="/layout/theme-switch">ThemeSwitch</Link>
+                      <Link href="/layout/header/themeSwitch">ThemeSwitch</Link>
                     </li>
                     <li className="mb-2">
-                      <Link href="/layout/screenFit">ScreenFit</Link>
+                      <Link href="/layout/header/screenFit">ScreenFit</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="mb-3">
-                  <Link href="/layoutfooter">Footer</Link>
+                  <Link href="/layout/footer">Footer</Link>
                 </li>
               </ul>
             </Col>
