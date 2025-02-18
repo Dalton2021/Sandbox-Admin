@@ -12,8 +12,8 @@ Build and make a test copy:
 
 Pull the test build:
 
-- If this is the first time adding it: run `yalc add @clutch-inc/usfa-ui-admin`
-- If just testing changes from a new build and need to pull the latest copy: run `npm run update`
+- If this is the first time adding it, run: ```yalc add @clutch-inc/usfa-ui-admin```
+- If just testing changes from a new build and need to pull the latest copy, run: ```npm run update```
 
 
 ## Usage
